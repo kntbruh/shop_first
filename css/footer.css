@@ -1,0 +1,54 @@
+.site-footer{
+    background: #fff;
+    padding:60px 0 45px 0;
+    font-size: 14px;
+    color:#43525d;
+}
+.site-footer h1,h2,h3,h4{
+
+    font-size: 16px;
+    color:#ff7013;
+}
+.copyright{
+    margin-top:20px;
+}
+ul.footer-nav a{
+    color:#28313b;
+    text-decoration: none;
+}
+ul.footer-nav a:hover{
+    color:#ff7013; 
+}
+
+ul.footer-nav .active{
+    color:#ff7013; 
+}
+ul.footer-nav li{
+    margin-bottom: 15px;
+}
+.payment {
+    background-image: url(../images/payment.png);
+    width: 25px;
+    height: 17px;
+    display: inline-block;
+    
+}
+.one{
+    background-position: -1px -1px;
+}
+ .two{
+   
+    background-position: -36px -1px;
+}
+ .three{
+    
+    background-position: -72px -1px;
+}
+ .four{
+  
+    background-position: -108px -1px;
+}
+.five{
+  
+    background-position: -144px -1px;
+}

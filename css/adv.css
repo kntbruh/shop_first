@@ -1,0 +1,87 @@
+.adv{
+    min-height: 100px;
+    background: #fff;
+    border:1px solid #eaedef;
+    margin: 25px;
+}
+.adv .sale{
+    width: 25%;
+    margin:0 2%;
+    float:left;
+}
+.sale-img {
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/sale.png);
+    margin:10px auto;
+    text-align:center;
+    overflow:hidden;
+   
+}
+.sale-img span{
+    font-size: 12px;
+    font-style:italic;
+    color:#fff;
+    padding-top:18px;
+    display:block;
+}
+.sale-img p{
+    font-size: 18px;
+    color:#fff;
+    
+}
+.adv .slogan::after{
+        content:"";
+        display: block;
+        width: 1px;
+        height: 45px;
+        background: #f5f5f6;
+        position:absolute;
+        right:10px;
+        top:27px;
+}
+.adv .slogan{
+width: 40%;
+float:left;
+margin:0 2%;
+min-height: 100px;
+text-align: left;
+}
+
+.adv .slogan h3{
+    color:#34404b;
+    font-size: 22px;
+    text-align: left;
+    margin: 10px;
+    
+}
+.adv .slogan p{
+    color:#495662;
+    font-size: 12px;
+    margin:5px;
+}
+.adv .price{
+    width: 23%;
+    min-height: 100px;
+    margin:0 2%;
+    float:left;
+    color:#ff7013;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.adv .price p::before{
+    background-image: url(../images/cart.png);
+    width: 22px;
+    height: 22px;
+    margin-right: 30px;
+    content:"";
+    display: inline-block;
+
+}
+
+.adv-2{
+    padding: 30px;
+    line-height: 25px;
+}
